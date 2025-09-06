@@ -38,6 +38,7 @@ main(void)
   kinit2(P2V(4*1024*1024), P2V(PHYSTOP)); // must come after startothers()
   userinit();      // first user process
   // Finish setting up this processor in mpmain.
+  cprintf("CS350 proj0 printing in kernel space: Peiran DU\n");
   mpmain();
 }
 
